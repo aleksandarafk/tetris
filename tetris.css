@@ -1,0 +1,86 @@
+
+body {
+  background-image: url("tetris.jpg");
+  padding-top: 1em;
+  text-align: center;
+  background-size: cover;
+}
+
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+canvas
+{
+  border: solid 0.2em white;
+  background: #eee;
+  display: block;
+  margin: 20px auto;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Press Start 2P", monospace;
+  color: white;
+}
+p {
+  font-family: "Press Start 2P", monospace;
+  line-height: 1.5;
+  color: white;
+  font-size: 15px;
+}
+
+
+#score { /* score on top of the page*/
+  font-family: "Press Start 2P", monospace;
+  color: white;
+}
+
+#instructions { /* button */
+  background-color: #149df4;
+  color: white;
+  padding: 0.5em;
+  margin: 10px 0px 25px 0px;
+  font-family: "Press Start 2P", monospace;
+}
+/* the instructions tab */
+.instructions {
+  display: none; /* using js to show it*/
+  position: fixed;
+  z-index: 1; /* sits on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* instructions panel */
+.instructions-content {
+  background-color: black;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* the X Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #149df4;
+  text-decoration: none;
+  cursor: pointer;
+}

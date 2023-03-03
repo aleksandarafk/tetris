@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tetris.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <title> Tetris game !</title>
+  </head>
+  <body>
+    <h2>Lets play Tetris </h2>
+<button id="instructions">Instructions</button>
+    <div id="score"> Score</div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+<!--Instructions -->
+<div id="myInstructions" class="instructions">
+  <div class="instructions-content">
+    <span class="close">&times;</span>
+    <p>⬅️ Left Arrow: moves the block left<br><br> ➡️ Right Arrow: moves the
+      block right<br><br>
+      ⬇️ Down Arrow: Accelerates the block's fall<br><br>
+      ⬆️ & W Keys: Rotates the block <br><br> Score as many points as possible
+      by clearing horizontal lines of Blocks.<br><br>
+      Lines are cleared when they are filled with Blocks and have no empty
+      spaces.<br><br>
+      Good luck :)
+    </p>
+  </div>
+    <script src="tetris.js"></script>
+  </body>
+</html>
